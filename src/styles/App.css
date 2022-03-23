@@ -1,0 +1,63 @@
+:root {
+  --main-red: #FF4D59;
+  --main-pink: #DC4684;
+  --purple-one: #A55199;
+  --purple-two: #695795;
+  --main-blue: #3B537B;
+  --main-teal: #2F4858;
+}
+
+* a {
+  color: white !important;
+  text-decoration: none;
+}
+
+* a:hover {
+  font-weight: bold;
+}
+
+body {
+  background-color: #171a1d;
+
+}
+
+.App {
+  text-align: center;
+}
+
+/* navigation */
+
+.nav-logo {
+  width: 5rem;
+  height: auto;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28255, 255, 255, 15%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e);
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-color {
+  background-color: #181A1D;
+}
+
+/* tech block container */
+
+.tech-blocks-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+

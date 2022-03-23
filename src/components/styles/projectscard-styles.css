@@ -1,0 +1,45 @@
+:root {
+    --main-red: #FF4D59;
+    --main-pink: #DC4684;
+    --purple-one: #A55199;
+    --purple-two: #695795;
+    --main-blue: #3B537B;
+    --main-teal: #2F4858;
+  }
+FF4D59
+
+.project-card {
+    background-color: black;
+    border: none;
+}
+
+.live-demo-btn {
+    border: 2px solid var(--main-red);
+    background-color: transparent;
+    color: var(--main-red);
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.live-demo-btn:hover {
+    background: var(--main-red);
+    color: white;
+    border: 2px solid var(--main-red);
+}
+
+.live-demo-btn:focus, .live-demo-btn:active {
+    outline: none;
+    box-shadow: none;
+    background: var(--main-red);
+    border-color: var(--main-red);
+}
+
+
+
+.project-img {
+    width: 50px;
+}
+
+a:active {
+    border: none;
+}

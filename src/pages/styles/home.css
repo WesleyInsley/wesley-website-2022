@@ -1,0 +1,66 @@
+
+
+body {
+    color: white;
+}
+
+/* Above The Fold Home Container  */
+.container-home {
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.container-home span {
+    color: var(--main-red);
+}
+
+.continue-btn {
+    color: var(--main-red);
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 25px;
+    border: 2px solid var(--main-red);
+    background-color: transparent;
+    transition: transform ease-in-out 300ms;
+}
+
+.continue-btn:hover {
+    transform: scale(1.05);
+}
+
+/* below the fold About */
+
+.container-block {
+    margin-top: 500px;
+    height: 500px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+}
+
+.container-block h1 {
+    font-size: 50px;
+}
+
+/* tech block */
+
+.tech-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.samples-block {
+    margin-top: 500px;
+    /* height: 500px; */
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 250px;
+    font-size: 18px;
+    overflow: auto;
+}
+
+
+
