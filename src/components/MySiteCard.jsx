@@ -13,7 +13,7 @@ const MySiteCard = () => {
             My personal portfolio site. Here to share some information about what I've done.
             </Card.Text>
             <a href="#"><Button className="live-demo-btn" variant="info">Live Demo</Button></a>
-            <Button className="live-demo-btn" variant="info">GitHub</Button>
+            <a href="https://github.com/WesleyInsley/wesley-website-2022" target="_blank"><Button className="live-demo-btn" variant="info">GitHub</Button></a>
             <Card.Text>
             <img className="project-img" src="https://wesleyinsley.com/Assets/images/html-icon.png" />
             <img className="project-img" src="https://wesleyinsley.com/Assets/images/css-icon.png" />
