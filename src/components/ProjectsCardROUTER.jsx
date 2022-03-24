@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const ProjectsCardROUTER = () => {
 
-    const notAvailable = () => toast("this feature or content is not available yet. :( Please check later!");
+    const notAvailable = () => toast.error("this feature or content is not available yet. :( Please check later!");
 
     return(
         <>

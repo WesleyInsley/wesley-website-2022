@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const ProjectsCard = () => {
 
-    const notAvailable = () => toast("this feature or content is not available yet. :( Please check later!");
+    const notAvailable = () => toast.error("this feature or content is not available yet. :( Please check later!");
 
     return(
         <>
@@ -32,17 +32,6 @@ const ProjectsCard = () => {
             </Card.Text>
         </Card.Body>
         </Card>
-        <ToastContainer 
-            position="top-right"
-            autoClose={5000}
-            hideProgressBar={false}
-            newestOnTop={false}
-            closeOnClick
-            rtl={false}
-            pauseOnFocusLoss
-            draggable
-            pauseOnHover={false}
-        />
         </>
     )
 }
