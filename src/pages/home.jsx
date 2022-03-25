@@ -93,10 +93,8 @@ const Home = () => {
                     <h1>Sample Projects</h1>
                         <div className="tech-blocks-container">
                             <div className="tech-block">
-                                <ProjectsCardTODO />  
-                                <ProjectsCardCHAT />
-                                <MySiteCard />
-                                <ProjectsCardROUTER />  
+                                <ProjectsCardTODO />
+                                <MySiteCard />  
                             </div> 
                         </div>
                 </div>

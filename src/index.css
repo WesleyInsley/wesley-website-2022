@@ -35,3 +35,19 @@ code {
 .creative-link {
   font-size: 15px;
 }
+
+/* Creative Tab Styling */
+
+.vid-section-description {
+  margin: 100px 0px 100px 0px;
+}
+
+
+
+.display-photo {
+  border-radius: 5px;
+  width: 60vw;
+  max-width: 500px;
+  margin: 5px;
+}
+
